@@ -1,2 +1,2 @@
 # about.me
-get to know me
+Get to know me better !

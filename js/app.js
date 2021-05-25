@@ -10,7 +10,7 @@ if(sportinfo ==='yes' || sportinfo ==='y')
     alert ('good for you');
 }
 else if(sportinfo ==='no' || sportinfo === 'n') {
-    console.log('you have to !')
+    alert ('you have to !')
 }
 else {
     alert('you have to pick between yes or no');
