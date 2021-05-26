@@ -1,7 +1,7 @@
 'use strict';
 
 let points = 0;
-/*alert ('Hello, Welcome to our quizz guessing game')
+alert ('Hello, Welcome to our quizz guessing game')
 alert('answers the following questions with yes or no')
 let q1 = prompt('have Ajax team ever won the champion leauge?');
 
@@ -93,7 +93,8 @@ switch (q5.toLowerCase()) {
         break;
 
 
-}*/
+}
+
 let picknum = prompt('how many times did AC Milan won the champions leauge?');
 
 for (let x = 0; x < 4; x++) {
