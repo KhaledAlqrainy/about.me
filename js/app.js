@@ -4,6 +4,9 @@ let points = 0;
 alert ('Hello, Welcome to our quizz guessing game')
 alert('answers the following questions with yes or no')
 
+function firstQ()
+{
+
 let q1 = prompt('have Ajax team ever won the champion leauge?');
 
 switch (q1.toLowerCase()) {
@@ -21,7 +24,10 @@ switch (q1.toLowerCase()) {
         break;
 
 
-}
+}}
+firstQ();
+
+function secondQ(){
 
 let q2 = prompt('Germany team won the world cup 3 times');
 
@@ -41,7 +47,9 @@ switch (q2.toLowerCase()) {
 
 
 
-}
+}}
+secondQ();
+function thirdQ(){
 let q3 = prompt('Kaka won the golden ball two times');
 
 switch (q3.toLowerCase()) {
@@ -59,7 +67,9 @@ switch (q3.toLowerCase()) {
         break;
 
 
-}
+}}
+thirdQ();
+function fourthQ(){
 let q4 = prompt('Roger Federer have 20 Grand slam')
 switch (q4.toLowerCase()) {
     case 'yes':
@@ -76,7 +86,9 @@ switch (q4.toLowerCase()) {
         break;
 
 
-}
+}}
+fourthQ();
+function fifthQ (){
 let q5 = prompt('PSG won the Champions leauge last year');
 
 switch (q5.toLowerCase()) {
@@ -94,8 +106,10 @@ switch (q5.toLowerCase()) {
         break;
 
 
-}
+}}
+fifthQ();
 
+function sixthQ(){
 let picknum = prompt('how many times did AC Milan won the champions leauge?');
 
 picknum = Number(picknum);
@@ -119,12 +133,18 @@ for (let x = 0; x < 4; x++) {
         alert('higher, try again !');
 
     }
+
     if (x === 3) {
         alert('you failed, the right answer is 7 times')
 }
 
 
-}
+
+}}
+sixthQ();
+
+function seventhQ(){
+
 
 
 
@@ -142,20 +162,10 @@ for (let i = 0; i <6; i++) {
 
 
 }
+}
+seventhQ();
+
 
 alert('my favorite team is the one and only Milan');
 alert('your total points is ${points}');
-
-
-
-
-
-
-
-
-
-
-
-
-
 
