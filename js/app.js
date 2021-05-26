@@ -3,6 +3,7 @@
 let points = 0;
 alert ('Hello, Welcome to our quizz guessing game')
 alert('answers the following questions with yes or no')
+
 let q1 = prompt('have Ajax team ever won the champion leauge?');
 
 switch (q1.toLowerCase()) {
@@ -97,10 +98,13 @@ switch (q5.toLowerCase()) {
 
 let picknum = prompt('how many times did AC Milan won the champions leauge?');
 
+picknum = Number(picknum);
+
 for (let x = 0; x < 4; x++) {
 
+    let picknum = prompt('how many times did AC Milan won the champions leauge?');
 
-    if (picknum == 7) {
+    if (picknum === 7) {
         alert('Great !')
         points++;
         break;
@@ -108,19 +112,18 @@ for (let x = 0; x < 4; x++) {
     }
     else if (picknum < 7) {
 
-        alert('lower, try again !')
+        alert('lower, try again !');
     }
     else if (picknum > 7) {
 
-        alert('higher, try again !')
+        alert('higher, try again !');
 
     }
-
-
+    if (x === 3) {
+        alert('you failed, the right answer is 7 times')
 }
 
-if (x === 4) {
-    alert('you failed, the right answer is 7 times')
+
 }
 
 
@@ -131,7 +134,7 @@ guess = prompt('try to guess my favorite team')
 for (let i = 0; i <6; i++) {
 
 
-    if (guess === Milan) {
+    if (guess === 'Milan') {
         alert('you are a magician!')
         points++;
         break;
